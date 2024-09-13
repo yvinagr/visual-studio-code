@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+</head>
+<body>
+    
+<h1> Formulário HTML</h1>
+
+<!-- inicio do formulário-->
+ <form action="#" method="post">
+
+ <!-- Campo de entrada de tudo -->
+<label for="nome">nome:</label>
+<input type="text" id="nome" name="nome" placeholder="digite seu nome">
+<br><br>
+
+<!--campo de e-mail-->
+<label for="email">email:</label>
+<input type="email" id="email" name="email" placeholder="digite seu e-mail">
+<br><br>
+
+<!--campo de número-->
+<label for="idade">idade:</label>
+<input type="number" id="idade" name="idade" min="1" max="100" placeholder="digite sua idade">
+<br><br>
+
+<!--campo de telefone-->
+<label for="telefone">telefone:</label>
+<input type="tel" id="telefone" name="telefone" placeholder="digite sue telefone">
+<br><br>
+
+<!--campo de data-->
+<label for="data">data de nascimento:</label>
+<input type="data" id="data" name="data" >
+<br><br>
+
+<!--campo de url-->
+<label for="website">website:</label>
+<input type="url" id="website" name="website" placeholder="busque algo" >
+<br><br>
+
+<!--campo de texto-->
+<label for="mensagem">mensagem:</label>
+<textarea id="mensagem" name="mensagem" rows="4" cols="50" placeholder="escreva sua mensagem"></textarea>
+<br><br>
+
+<!--botão de envio-->
+<input type="submit" value="enviar">
+
+<!--botão de redefinir-->
+<input type="reset" value="redefinir">
+<br><br>
+
+<!--campo de seleção (checkboox)-->
+<label>
+<input type="checkbook" name="aceitar" value="sim">aceito os termos e condições
+</label>
+<br><br>
+
+<!--botões de opção (radio)-->
+<p>sexo:</p>
+<label>
+<input type="radio" name="sexo" value="masculino">masculino
+<br><br>
+</label>
+<label>
+<input type="radio" name="sexo" value="feminino">feminino
+</label>
+<br><br>
+
+<!--lista de seleção (dropdown)-->
+<label for="pais">país:</label>
+<select id="país" name="pais">
+    <option value="brasil">brasil</option>
+    <option value="portugal">portugal</option>
+    <option value="espanha">espanha</option>
+    <option value="eua">estados unidos</option>
+    <option value="japão">japão</option>
+</select>
+<br><br>
+
+<!--campo de upload de arquivo-->
+<label for="arquivo"> upload de arquivos</label>
+<input type="file" id="arquivo" name="arquivo">
+<br><br>
+
+<!--campo de intervalo (range)-->
+<label for="volume"> volume:</label>
+<input type="range" id="volume" name="volume" min="0" max="100">
+<br><br>
+
+<!--campo de cor-->
+<label for="cor">escolha uma cor</label>
+<input type="color" id="cor" name="cor">
+<br><br>
+
+<!--campo de tempo-->
+<label for="tempo">escolha umhorário:</label>
+<input type="time" id="tempo" name="tempo">
+<br><br>
+
+<!--campo de mês-->
+<label for="mes">escolha um mês:</label>
+<input type="month" id="mes" name="mes">
+<br><br>
+
+<!--campo de semana-->
+<label for="semana">escolha uma semana:</label>
+<input type="week" id="semana" name="semana"
+
+</body>
+</html>
+ </form>
+<!--fim do formulário-->

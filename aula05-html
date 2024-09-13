@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formatação de textos</title>
+</head>
+<body>
+    
+<h2> aula de formatação de textos</h2>
+
+
+<b>texto em formatação em negrito</b> <br>
+
+<i>texto em formatção em italico</i><br>
+
+<u>texto em formatção em sublinhado</u><br>
+
+
+<h3>formatação de fonte</h3>
+
+<p> texto com formatação 01</p>
+
+
+
+
+
+
+</body>
+</html>
